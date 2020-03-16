@@ -2,11 +2,8 @@
 
 from setuptools import setup
 
-from pycoin.version import version
-
 setup(
     name="pycoin",
-    version=version,
     packages=[
         "pycoin",
         "pycoin.blockchain",
